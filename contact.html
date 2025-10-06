@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - KURY LTDA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">KURY<span>LTDA</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Quem Somos</a></li>
+                    <li><a href="solutions.html">Soluções</a></li>
+                    <li><a href="sectors.html">Setores</a></li>
+                    <li><a href="clients.html">Clientes</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contato</h1>
+            <p>Entre em contato com nossa equipe especializada</p>
+        </div>
+    </section>
+
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Fale Conosco</h2>
+                    <p>Estamos prontos para ajudar sua empresa a alcançar novos patamares com tecnologia de ponta.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-info">
+                                <h4>E-mail</h4>
+                                <p>contato@kuryltda.com</p>
+                                <p>suporte@kuryltda.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">📞</div>
+                            <div class="method-info">
+                                <h4>Telefone</h4>
+                                <p>+55 (11) 9999-9999</p>
+                                <p>+55 (11) 8888-8888</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">📍</div>
+                            <div class="method-info">
+                                <h4>Endereço</h4>
+                                <p>Av. Paulista, 1000</p>
+                                <p>São Paulo - SP, 01310-100</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">🕒</div>
+                            <div class="method-info">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 8h às 18h</p>
+                                <p>Sábado: 8h às 12h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="sector">Setor de Atuação</label>
+                            <select id="sector" name="sector">
+                                <option value="">Selecione...</option>
+                                <option value="industria">Indústria</option>
+                                <option value="varejo">Varejo</option>
+                                <option value="agro">Agronegócio</option>
+                                <option value="saude">Saúde</option>
+                                <option value="educacao">Educação</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">Interesse</label>
+                            <select id="interest" name="interest">
+                                <option value="">Selecione...</option>
+                                <option value="erp">Sistema ERP</option>
+                                <option value="automacao">Automação</option>
+                                <option value="dados">Gestão de Dados</option>
+                                <option value="software">Software Personalizado</option>
+                                <option value="consultoria">Consultoria</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="message">Mensagem *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="support">
+        <div class="container">
+            <div class="section-title">
+                <h2>Suporte Técnico</h2>
+            </div>
+            
+            <div class="support-grid">
+                <div class="support-channel">
+                    <div class="channel-icon">💬</div>
+                    <h3>Chat Online</h3>
+                    <p>Atendimento imediato via chat para dúvidas técnicas</p>
+                    <a href="#" class="btn btn-secondary">Iniciar Chat</a>
+                </div>
+                
+                <div class="support-channel">
+                    <div class="channel-icon">📋</div>
+                    <h3>Base de Conhecimento</h3>
+                    <p>Artigos, tutoriais e documentação técnica</p>
+                    <a href="#" class="btn btn-secondary">Acessar Base</a>
+                </div>
+                
+                <div class="support-channel">
+                    <div class="channel-icon">🎥</div>
+                    <h3>Video Tutoriais</h3>
+                    <p>Vídeos explicativos sobre nossas soluções</p>
+                    <a href="#" class="btn btn-secondary">Ver Tutoriais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Perguntas Frequentes</h2>
+            </div>
+            
+            <div class="faq-list">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Quanto tempo leva para implementar um sistema ERP?</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>O tempo de implementação varia conforme o tamanho da empresa e complexidade dos processos. Em média, projetos levam de 3 a 6 meses para conclusão completa.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Vocês oferecem treinamento para os usuários?</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Sim, oferecemos treinamento completo para todos os usuários, incluindo materiais de apoio, manuais e suporte durante o período de adaptação.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>É possível integrar com sistemas existentes?</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Sim, nossas soluções são desenvolvidas com APIs abertas que permitem integração com a maioria dos sistemas existentes no mercado.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Como é o suporte pós-implantação?</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Oferecemos suporte técnico 24/7 para emergências e suporte comercial em horário comercial. Também realizamos atualizações regulares e manutenção preventiva.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>KURY LTDA</h3>
+                    <p>A energia da tecnologia que move empresas.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">[IN]</a>
+                        <a href="#" aria-label="Facebook">[FB]</a>
+                        <a href="#" aria-label="Instagram">[IG]</a>
+                        <a href="#" aria-label="YouTube">[YT]</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Soluções</h3>
+                    <ul>
+                        <li><a href="solutions.html#erp">Sistema ERP</a></li>
+                        <li><a href="solutions.html#automacao">Automação</a></li>
+                        <li><a href="solutions.html#dados">Gestão de Dados</a></li>
+                        <li><a href="solutions.html">Softwares Corporativos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Empresa</h3>
+                    <ul>
+                        <li><a href="about.html">Quem Somos</a></li>
+                        <li><a href="clients.html">Cases</a></li>
+                        <li><a href="sectors.html">Setores</a></li>
+                        <li><a href="contact.html">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>contato@kuryltda.com</li>
+                        <li>+55 (11) 9999-9999</li>
+                        <li>São Paulo - SP</li>
+                        <li><a href="contact.html">Suporte Técnico</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-slogan">KURY LTDA — A energia da tecnologia que move empresas.</div>
+                <p>&copy; 2024 KURY LTDA. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
